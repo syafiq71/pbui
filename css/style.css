@@ -11,11 +11,11 @@ body {
     overflow: hidden;
     padding-top: 90px;
     height: 100vh;
-   
+    
 }
 .bodyCon{
     /* height: 100vh; */
-    margin-top: 100px;
+   
 }
 
 
@@ -27,7 +27,7 @@ body {
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     
-
+    
 }
 .label{
     position: relative;
@@ -35,61 +35,126 @@ body {
 
 .btn-class {
     background-color: #006192;}
-.navbar-custom{
-    background:#666 ;
-}
-nav {
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-}
-.swiperMainCon{
-    display: none;
-}
-.swiper {
-  width: 100%;
-  }
- footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}  
-.sponsor{
-   display: none;
-}
-
-
-
-
-@media (min-width: 576px) {
-    body{
-        overflow: auto;
-    } 
- .sponsor{
-     display: block;
- }
-    .loginMainCon{
-        height: 40vh;
-        width: 50px;
-    } 
-    .loginCon{
-        width: 50%;
+    .navbar-custom{
+        background:#666 ;
+    }
+    nav {
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
     }
     .swiperMainCon{
-        display: block;
+        display: none;
     }
-  
-    .announcement{
-        width: 300px;
-        height: 250px;
+    .swiper {
+        width: 100%;
     }
- }
+
+    .sponsor{
+        display: none;
+    }
+.footerCon{
+    /* background: rgb(238, 238, 238); */
+}
+.mainRow{
+    background: rgba( 251, 251, 251, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 90%;
+    margin-left: 20px;
+    height: 88vh;
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+    
+.playstore{
+    display: none;
+}
+.appBadge div {
+    display: none;
+}
+    
+    @media (min-width: 576px) {
+        body{
+            overflow: auto;
+        } 
+        .loginMainCon{
+            height: 40vh;
+            width: 50px;
+        } 
+        .loginCon{
+            width: 50%;
+        }
+        .swiperMainCon{
+            display: block;
+        }
+        .swiper{
+            width: 500px;
+            height: 330px;
+         
+        }
+        .announcement{
+            width: 100px;
+            height: 100px;
+        }
+        .card-img-top{
+         
+            
+        }
+    }
+    
+    
+    @media (min-width: 768px) { 
 
 
-@media (min-width: 768px) {  }
-
-
-@media (min-width: 992px) {  }
-
-
-@media (min-width: 1200px) {  }
-
-@media (min-width: 1400px) {  }
+     }
+    
+    
+    @media (min-width: 992px) { 
+        .swiperMainCon {
+            width: 50%;
+            margin: auto;
+        }
+        .mainRow{
+            height: 80vh;
+            margin-bottom: 100px;
+            align-items: center;
+        }
+        .swiper-slide{
+            height: auto;
+        }
+        .loginCon{
+            height: 100%;
+            width: auto;
+        }
+        .loginCol{
+            margin-left: 50px;
+        }
+        
+        .appBadge div {
+            display: block;
+        }
+        .appleBtn, .appleBtn a {
+            min-width: 150px;
+            min-height: 50%;
+        }
+        .appleBtn a img {
+            width: 80%;
+            min-width: 100%;
+            min-height: 100%;
+        }
+        .gPlayBtn {
+            min-width: 190px;
+        }
+        .gPlayBtn a img {
+            width: 100%;
+            position: relative;
+            top: -12px;
+        }
+     }
+    
+    
+    @media (min-width: 1200px) {  }
+    
+    @media (min-width: 1400px) {  }
